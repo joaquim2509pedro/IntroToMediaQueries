@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  overflow-x: hidden;
 }
 
 /* Navbar */
@@ -93,7 +94,6 @@ h3 {
 /* iPhone Section */
 
 .iphonesection {
-
   min-height: 700px;
   background-image: url(/images/iphone_12_updated__jepm2xpxncuy_largetall_2x.jpg);
   background-position: center;
@@ -114,7 +114,7 @@ h3 {
 }
 
 .iphoneh4 {
-  color :#868686ef;
+  color: #868686ef;
   font-size: 1em;
   font-weight: 400;
   padding-bottom: 10px;
@@ -130,19 +130,127 @@ h3 {
 }
 
 .divwrapper {
-  min-width: 50vw;
-  height: 750px;
-  
+  height: 620px;
+  min-width: 49%;
+  max-width: 50vw;
 }
 
 #confidential {
   background-image: url(/images/promo_privacy_image__cy6sgqrmyxiu_large_2x.jpg);
   background-position: center;
   background-size: cover;
+  box-sizing: border-box;
+  margin-left: 0.25%;
+  margin-right: 0.25%;
+  margin-top: 5px;
+  display: flex;
+  flex-direction: column;
+  color: #ffffff;
+  align-items: center;
+  padding-top: 10px;
+  font-size: 2.5em;
+  font-weight: bold;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+span {
+  padding-top: 50px;
+}
+
+.lowerspan {
+  padding-top: 0px;
+}
+
+.lowerspan2 {
+  font-size: 0.5em;
+  padding-top: 0;
+}
+
+.linkspan {
+  color: #0073e6;
+  font-size: 0.65em;
+  font-weight: 100;
+  font-family: "Source Sans Pro", sans-serif;
+  padding-top: 20px;
 }
 
 #watch {
   background-image: url(/images/promo_watch_series_6_lte__f8lrasjnry2y_large_2x.jpg);
   background-position: center;
   background-size: cover;
+  box-sizing: border-box;
+  margin-left: 0.25%;
+  margin-right: 0.25%;
+  margin-top: 5px;
+  display: flex;
+  flex-direction: column;
+  color: #ffffff;
+  align-items: center;
+  padding-top: 10px;
+  font-size: 2.5em;
+  font-weight: bold;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+#wwdc {
+  background-image: url(/images/promo_wwdc21__p6pprzl4sjey_large_2x.jpg);
+  background-position: center;
+  background-size: cover;
+  box-sizing: border-box;
+  margin-left: 0.25%;
+  margin-right: 0.25%;
+  margin-top: 5px;
+  display: flex;
+  flex-direction: column;
+  color: #ffffff;
+  align-items: center;
+  padding-top: 10px;
+  font-size: 2.5em;
+  font-weight: bold;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+.wwdcspan {
+  padding-top: 225px;
+}
+
+#tv {
+  background-image: url(/images/promo_tile_tv4k__cbz6fpnn6kz6_large_2x.jpg);
+  background-position: center;
+  background-size: cover;
+  box-sizing: border-box;
+  margin-left: 0.25%;
+  margin-right: 0.25%;
+  margin-top: 5px;
+}
+
+#airtag {
+  background-image: url(/images/promo_airtag__e6b73a64nno2_large_2x.jpg);
+  background-position: center;
+  background-size: cover;
+  box-sizing: border-box;
+  margin-left: 0.25%;
+  margin-right: 0.25%;
+  margin-top: 5px;
+}
+
+#series {
+  background-image: url(/images/promo_liseys_story__ch508nk0re1y_large_2x.jpg);
+  background-position: center;
+  background-size: cover;
+  box-sizing: border-box;
+  margin-left: 0.25%;
+  margin-right: 0.25%;
+  margin-top: 5px;
+}
+
+.footerparagraph {
+  background-color: #ececec;
+  color: #474747;
+  font-family: "Source Sans Pro", sans-serif;
+  padding-top: 25px;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-bottom: 55px;
+  font-size: 0.75em;
 }
