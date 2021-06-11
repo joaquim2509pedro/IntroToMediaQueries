@@ -254,3 +254,32 @@ span {
   padding-bottom: 55px;
   font-size: 0.75em;
 }
+@media (min-width:80px)
+{
+  body {
+    background-color: white ;
+  
+}
+@media(max-width:732px){
+
+  .ipadsection { 
+    background-image: url(images/hero_ipad_pro_non_avail__fcrsmhs4b7ma_small.jpg);
+
+  }
+
+  .iphonesection {
+    background-image: url(images/iphone_12_updated__jepm2xpxncuy_small.jpg)
+  }
+  @media screen and (max-width: 1068px) and (min-width: 80px) {
+
+    .nores { 
+      display: none;}
+    
+    .noresa {
+      display: flex;
+      justify-content: space-between;}
+      
+}
+
+
+}
